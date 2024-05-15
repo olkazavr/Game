@@ -70,4 +70,7 @@ h3{
         padding: 8px;
         font-size: 10px;
     }
+        #container{
+        width: 50%;
+    }
 }
