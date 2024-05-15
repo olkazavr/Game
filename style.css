@@ -54,6 +54,9 @@ h3{
         padding: 10px;
         font-size: 20px;
     }
+    #container{
+        width: 60%;
+    }
 }
 @media all and (max-width: 500px){
     h3{
