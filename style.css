@@ -24,6 +24,7 @@ body{
 h3{
     font-family: "Roboto", sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 #guess{
     padding: 10px;
@@ -39,4 +40,31 @@ h3{
     padding: 20px;
     border-radius: 15px;
     border: none;
+}
+
+@media all and (max-width: 800px){
+    h3{
+        font-size: 20px;
+    }
+    #guess{
+        width: 60%;
+        font-size: 15px;
+    }
+    #btn{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 500px){
+    h3{
+        font-size: 15px;
+    }
+    #guess{
+        width: 60%;
+        font-size: 10px;
+    }
+    #btn{
+        padding: 8px;
+        font-size: 10px;
+    }
 }
